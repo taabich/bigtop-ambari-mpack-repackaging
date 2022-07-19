@@ -1,0 +1,19 @@
+{
+  "type" : "full-release",
+  "name" : "bgtp-ambari-mpack-repackaging",
+  "version": "1.0.0.0-SNAPSHOT",
+  "hash": "${buildNumber}",
+  "branch": "${scmBranch}",
+  "description" : "Bigtop Ambari Management Pack",
+  "prerequisites": {
+    "min-ambari-version" : "2.7.5.0.0",
+    "max-ambari-version" : "2.7.5.0.0"
+  },
+  "artifacts": [
+    {
+      "name" : "bgtp-stack-definitions",
+      "type" : "stack-definitions",
+      "source_dir": "stacks"
+    }
+  ]
+}
