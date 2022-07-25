@@ -111,14 +111,6 @@ component_directory_interactive = status_params.component_directory_interactive
 
 # used to render hadoop configurations, such as writing out its own mapreduce2 configs
 
-#hadoop_home = stack_select.get_hadoop_dir("home")
-#hadoop_lib_home = stack_select.get_hadoop_dir("lib")
-#hive_bin = format('{stack_root}/current/{component_directory}/bin')
-#hive_schematool_ver_bin = format('{stack_root}/{version}/hive/bin')
-#hive_schematool_bin = format('{stack_root}/current/{component_directory}/bin')
-#hive_lib = format('{stack_root}/current/{component_directory}/lib')
-#hive_version_lib = format('{stack_root}/{version}/hive/lib')
-
 hadoop_home = '/usr/lib/hadoop'
 hadoop_lib_home = '/usr/lib/hadoop/lib'
 hive_bin = '/usr/lib/hive/bin'

@@ -142,7 +142,7 @@ limitations under the License.
   </property>
   <property>
     <name>datanucleus.autoCreateSchema</name>
-    <value>false</value>
+    <value>true</value>
     <description>Creates necessary schema on a startup if one doesn't exist</description>
     <on-ambari-upgrade add="true"/>
   </property>
