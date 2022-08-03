@@ -102,7 +102,7 @@
     ],
     "Blueprints" : {
         "blueprint_name" : "blueprint-multinode-default",
-        "stack_name" : "BGTP",
+        "stack_name" : "NHN",
         "stack_version" : "1.0"
     }
 }

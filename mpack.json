@@ -1,6 +1,6 @@
 {
   "type" : "full-release",
-  "name" : "bgtp-ambari-mpack-repackaging",
+  "name" : "bgtp-ambari-mpack-nhn",
   "version": "1.0.0.0-SNAPSHOT",
   "hash": "${buildNumber}",
   "branch": "${scmBranch}",

@@ -59,7 +59,7 @@
     ],
     "Blueprints" : {
         "blueprint_name" : "blueprint-singlenode-default",
-        "stack_name" : "BGTP",
+        "stack_name" : "NHN",
         "stack_version" : "1.0"
     }
 }
