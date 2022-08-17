@@ -202,7 +202,7 @@ gpgcheck=0</value>
   </property>
   <property>
     <name>stack_root</name>
-    <value>{"BGTP":"/usr/bgtp"}</value>
+    <value>{"NHN":"/usr/nhn"}</value>
     <description>Stack root folder</description>
     <value-attributes>
       <read-only>true</read-only>

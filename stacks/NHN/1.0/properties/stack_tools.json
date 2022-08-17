@@ -1,5 +1,5 @@
 {
-  "BGTP": {
+  "NHN": {
     "stack_selector": [
       "distro-select",
       "/usr/bin/distro-select",
