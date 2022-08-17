@@ -29,19 +29,19 @@ from resource_management.libraries.functions.mounted_dirs_helper import get_moun
 from stack_advisor import DefaultStackAdvisor
 
 
-class BGTP10StackAdvisor(DefaultStackAdvisor):
+class NHN10StackAdvisor(DefaultStackAdvisor):
 
   def __init__(self):
-    super(BGTP10StackAdvisor, self).__init__()
-    self.initialize_logger("BGTP10StackAdvisor")
+    super(NHN10StackAdvisor, self).__init__()
+    self.initialize_logger("NHN10StackAdvisor")
 
   def getComponentLayoutValidations(self, services, hosts):
     """Returns array of Validation objects about issues with hostnames components assigned to"""
-    items = super(BGTP10StackAdvisor, self).getComponentLayoutValidations(services, hosts)
+    items = super(NHN10StackAdvisor, self).getComponentLayoutValidations(services, hosts)
 
     # Validating NAMENODE and SECONDARY_NAMENODE are on different hosts if possible
     # Use a set for fast lookup
-    hostsSet =  set(super(BGTP10StackAdvisor, self).getActiveHosts([host["Hosts"] for host in hosts["items"]]))  #[host["Hosts"]["host_name"] for host in hosts["items"]]
+    hostsSet =  set(super(NHN10StackAdvisor, self).getActiveHosts([host["Hosts"] for host in hosts["items"]]))  #[host["Hosts"]["host_name"] for host in hosts["items"]]
     hostsCount = len(hostsSet)
 
     componentsListList = [service["components"] for service in services["services"]]
